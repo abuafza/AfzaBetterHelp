@@ -1,0 +1,627 @@
+/* .themed-grid-col {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+  }
+  
+  .themed-container {
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(0, 123, 255, .15);
+    border: 1px solid rgba(0, 123, 255, .2);
+  } */
+
+/*--------------------------------------------------------------
+# Index Page topbackground Section 
+--------------------------------------------------------------*/
+#topbackground {
+  width: 100%;
+  height: 100vh;
+  background: url(/img/homeimg1.jpg) top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+@media (min-width: 1024px) {
+  #topbackground {
+      background-attachment: fixed;
+      
+  }
+}
+
+@media (max-width: 992px) {
+  #topbackground {
+    background-attachment: fixed;
+    text-align: center;
+  }
+  #topbackground h1,p {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  #topbackground {
+    background-attachment: fixed;
+    text-align: center;
+  }
+  #topbackground h1,p {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Index Page footer Section 
+--------------------------------------------------------------*/
+
+/* footer{
+  background-color: black;
+  color: white;
+  padding: 1.1em;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+  color: purple;
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+} */
+/*--------------------------------------------------------------
+# About 1st section
+--------------------------------------------------------------*/
+.page-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+img {
+  vertical-align: middle;
+}
+.intro {
+  position: relative;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.section-heading {
+  text-transform: uppercase;
+}
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.section-heading .section-heading-lower {
+  display: block;
+  font-size: 3rem;
+  font-weight: 100;
+}
+/* .rounded {
+  border-radius: 0.25rem !important;
+} */
+.bg-faded {
+  background-color: #f6e1c5;
+}
+.p-5 {
+  padding: 3rem !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.mb-lg-0 {
+  margin-bottom: 0 !important;
+}
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+/*--------------------------------------------------------------
+# About 3rd section
+--------------------------------------------------------------*/
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 150px;
+}
+/*--------------------------------------------------------------
+# About review section
+--------------------------------------------------------------*/
+.custom_nav{
+  font-size: small;
+  box-shadow: 0px 2px 12px rgba(0,0,0,0.3);
+}
+.custom_nav ul.dropdown-menu {
+  font-size: small;
+}
+.custom-divider{
+  height: 5px;
+  background: rgb(255,145,0);
+  background: linear-gradient(90deg, rgba(255,145,0,1) 0%, rgba(9,9,121,1) 15%, rgba(153,7,128,1) 39%, rgba(5,107,186,1) 59%, rgba(26,221,3,1) 79%, rgba(0,212,255,1) 100%);
+}
+.main-banner{
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-image: url(img/Banner.jpg);
+  background-size: cover;
+  color: white;
+}
+.feature-holder {
+  text-align: center;
+  margin-bottom: 25px;
+}
+section.features {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  background-color: whitesmoke;
+}
+.feature-holder h3 {
+  font-size: 1.2em;
+}
+.feature-holder p {
+  font-size: 14px;
+}
+section.online-courses, .classroom-training, .reviews-slider, .page-content {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.online-courses-text-widget, .classroom-courses-text-widget, .review-text-widget {
+  text-align: center;
+}
+.review-text-widget h2 {
+  font-size: 2em;
+  font-weight: bolder;
+  color: #0652DD;
+}
+.online-courses-text-widget p, .classroom-courses-text-widget p, .review-text-widget p {
+  font-size: 14px;
+}
+.online-course-card, .review-text-widget {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.online-course-card .card-title {
+  font-size: 1em;
+  line-height: 20px;
+}
+.card.online-course-card .card-text {
+  font-size: 14px;
+}
+.classroom-training, .page-content{
+  background-color: whitesmoke;
+}
+.reviews-slider{
+  background-color: #ececec;
+}
+.sign-up-form-sidebar .card-title {
+  font-size: 1.2em;
+}
+.sign-up-form-sidebar .card-text {
+  font-size: 14px;
+}
+.course-list-item {
+  font-size: small;
+  padding-top: 20px;
+  color: black;
+}
+.course-list-item h5{
+  font-size: 1.2em;
+}
+#review_slider_content li .card{
+  text-align: center;
+}
+#review_slider_content li .card img{
+  width: 50px;
+  margin-bottom: 15px;
+}
+#review_slider_content li .card .card-title{
+  font-size: 18px;
+  font-weight: bold;
+}
+#review_slider_content li .card .star{
+  color: orange;
+  font-size: 14px;
+}
+#review_slider_content li .card .card-text{
+  font-size: 14px;
+}
+footer.main-footer {
+  background-color: #292929;
+  color: white;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+aside.footer-widget {
+  margin-bottom: 25px;
+}
+aside.footer-widget h5 {
+  font-size: 16px;
+}
+aside.footer-widget ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+aside.footer-widget ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #adadad;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+address h2 {
+  font-size: 20px;
+}
+address p {
+  font-size: 14px;
+}
+section.copy {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+section.copy p{
+  margin: 0px;
+}
+.google-map{
+  padding-top: 56px;
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-wrap {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.contact .info {
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #1bbd36;
+  float: left;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #1bbd36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #111;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #444444;
+}
+
+.contact .info:hover i {
+  background: #1bbd36;
+  color: #fff;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  background: #fff;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+  border-color: #1bbd36;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: #1bbd36;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #2ae149;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact geo location
+--------------------------------------------------------------*/
+
+#season {
+  width: 200px;
+  height: 100px;
+  margin: 20px auto;
+  padding-left: 10px;
+  padding-top: 20px;
+  border-width: 10px 5px 2px 20px;
+  border-style: solid dashed dotted double;
+  border-color: red blue green purple;
+}
+/*--------------------------------------------------------------
+# Sign In
+--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#signinpage{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(120deg, #845ec2, #d65db1, #ff6f91, #ff9671, #ffc75f, #f9f871); */
+    background-image: url(/img/today-masthead.jpg);
+    background-size: 100%;
+    background-position: left;  
+    /* animation: bg-animation 10s infinite alternate; */
+}
+
+@keyframes bg-animation{
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
+}
+
+.formlogin{
+    position: relative;
+    width: 650px;
+    height: 600px;
+    left: 10%;
+    top: 120px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.formsign{
+    position: relative;
+    width: 300px;
+    height: 580px;
+    left: 38%;
+    top: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.heading{
+   top: 20px;
+    text-align: center;
+    letter-spacing: 1px;    
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.signupform, .loginform{
+    position: absolute;
+    left: 33px;
+    right: 33px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.value{
+    position: static;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    border-top: 40px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #000000;
+    border-radius: 5px;
+    transition: 0.7s ease-in-out 0.0s;
+}
+
+.radiovalue{
+    position: static;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.radiovalue:focus, .value:focus {
+    border: 1px solid #0652DD;
+}
+
+.submit{
+    position: static;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    border: 1px dashed #000000;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out 0.0s;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 0px 5px 20px 4px #7f8c8d;
+}
+
+.account{
+    position: static;
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: small;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.account:visited{
+    color: red;
+}
+
+.errormessage{
+    z-index: 1;
+    font-size: 9px;
+    font-style: italic;
+    color: #000000;
+}
+
+.danger{
+    color: #e74c3c;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.success{
+    color: #730068;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media (max-width: 992px) {
+  #signinpage{
+    background-size: cover;
+  }
+  .formlogin {
+    height: 370px;
+    left: 25%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Event
+--------------------------------------------------------------*/
+
+.pricing-header {
+  max-width: 700px;
+}
+
+/* [6:21 PM] Adeniyi Ladenegan
+    .btn:hover{​​​
+letter-spacing: 6px;
+}​​​ */
+
+

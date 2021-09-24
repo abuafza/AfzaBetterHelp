@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!-- Bootstrap Datatable   -->
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.2/css/dataTables.bootstrap5.min.css">
+  <!--awesome font use link -->
+  <script src="https://kit.fontawesome.com/51bfc8bc19.js" crossorigin="anonymous"></script>
+   
+   <!-- own css -->
+   <link rel="stylesheet" href="style.css">
+    <title>AfzaBetterHelp</title>
+</head>
+<body>
+<main>
+  <section class="page-section bg-light">
+    <div class="row mt-3">
+      <div class="col-md-1"></div>
+      <div class="col-md-8"><h3>Services</h3></div>
+      <div class="col-md-3">          
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="./service.html">Services</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Schedule</li>
+
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <hr>
+    <section class="bg-light">
+        <div class="row mt-3 text-center"><h2> Schedule a demo</h2></div>
+        <div class="row">
+            <div class="col-md-2"> </div>
+            <div class="col-md-8 mt-5">
+                <img src="/img/demo.jpg">
+            </div><!-- /.col-lg-4 -->
+            <div class="col-md-2"></div>
+        </div>
+    </section>
+    <hr>
+    <section class="bg-light mt-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-body">
+                    <p>Through our many partnerships. we cover over 280 million lives. We’re talking millions of smiles. 
+                        Your organization deserves nothing less!</p>
+                          <h4 class="card-title pricing-card-title">In your demo, you'll learn:</h4>
+                          <ul class="list-unstyled mt-3 mb-4">
+                            <li> <i class="fas fa-compress-arrows-alt"></i>&nbsp How we match your members with licensed therapists based on their specific preferences and needs within 24 hours</li>
+                            <li> <i class="fas fa-compress-arrows-alt"></i>&nbsp How we work with you and support you through planning, launching, and driving long-term success with your newest member benefit!</li>
+                            <li> <i class="fas fa-compress-arrows-alt"></i>&nbsp How we are able to accommodate any size of organization and budget, as well as the option for uninterrupted continuum of service to your members past your coverage</li>
+                            <li> <i class="fas fa-compress-arrows-alt"></i>&nbsp How you’d get robust visibility with our best-in-class 24/7 aggregated, non-PII, utilization and ROI reporting</li>
+                          </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">email</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Phone</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+                <br>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Schedule a demo </button>
+            </div>
+        </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Demo Schedule</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Thanks Abu, we will contact with you sortly.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+    <hr>
+</main>
+
+  <br><br><br><br>
+
+   <!-- -----------------------footer-------------  -->
+<!-- <footer>
+    <p>Copyright &copy; Abu Afza student of <a href="https://www.trios.com" target="_blank">triOS</a> student</p>
+</footer>
+<br><br><br><br><br><br><br><br><br><br> -->
+
+   <!-- -----------------------Navigation-------------  -->
+    <nav class="navbar fixed-bottom navbar-expand-xs navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">AfzaBetterHelp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./signin.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropup">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Others</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown10">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+</body>
+</html>
